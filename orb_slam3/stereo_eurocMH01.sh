@@ -1,0 +1,1 @@
+gnome-terminal --title="ORB3" -x bash -c "./Examples/Stereo/stereo_euroc ./Vocabulary/ORBvoc.txt ./Examples/Stereo/EuRoC.yaml ~/code/dataset/MH_01_easy ./Examples/Stereo/EuRoC_TimeStamps/MH01.txt dataset-MH01_stereo"

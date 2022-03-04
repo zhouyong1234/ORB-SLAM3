@@ -1,0 +1,9 @@
+运行ros下单目摄像头
+程序为ros_momo_avi.cc
+如果是android手机发布的图像数据格式为 compressed 而orb3需要的image_raw
+故执行下一句：
+rosrun image_transport republish compressed in:=/camera/image raw out:=/usb_cam/image_raw
+
+subscribe("/usb_cam/image_raw", 1)
+
+然后执行rosrun ORB_SLAM3 mono_avi

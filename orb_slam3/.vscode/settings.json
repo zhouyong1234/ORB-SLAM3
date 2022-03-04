@@ -1,0 +1,10 @@
+{
+    "ros.distro": "melodic",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "chrono": "cpp",
+        "iomanip": "cpp",
+        "strstream": "cpp"
+    }
+}
